@@ -1,0 +1,42 @@
+body {
+  background-color: #f4f4f4;
+  width: 500px;
+}
+
+.color-box {
+  width:80px;
+  height: 80px;
+  box-shadow: 0 0 20px gray;
+}
+
+.color-grid {
+ display: flex;   justify-content: space-between;
+  align-items: center; 
+ }
+
+.color1 { background-color: #FF1264;   border-radius: 10px; 
+}
+
+.color2 {  background-color: rgb(122, 231, 7);  border-radius: 10px; 
+}
+
+.color3 {
+background-color: yellow;
+ border-radius: 10px; 
+}
+
+.color4 {
+background-color: hsl(245, 75%, 60%);   border-radius: 10px; 
+}
+
+.color5 {
+background-color: rgb(246, 123, 0);
+  border-radius: 10px; 
+}
+
+.title {
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  font-size: 50px;
+}
